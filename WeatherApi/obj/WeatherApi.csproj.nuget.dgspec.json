@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rassa\\weatherDashF-B\\WeatherApi\\WeatherApi.csproj": {}
+    "C:\\Users\\rassa\\weatherDashF-B - Cursor\\WeatherApi\\WeatherApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rassa\\weatherDashF-B\\WeatherApi\\WeatherApi.csproj": {
+    "C:\\Users\\rassa\\weatherDashF-B - Cursor\\WeatherApi\\WeatherApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rassa\\weatherDashF-B\\WeatherApi\\WeatherApi.csproj",
+        "projectUniqueName": "C:\\Users\\rassa\\weatherDashF-B - Cursor\\WeatherApi\\WeatherApi.csproj",
         "projectName": "WeatherApi",
-        "projectPath": "C:\\Users\\rassa\\weatherDashF-B\\WeatherApi\\WeatherApi.csproj",
+        "projectPath": "C:\\Users\\rassa\\weatherDashF-B - Cursor\\WeatherApi\\WeatherApi.csproj",
         "packagesPath": "C:\\Users\\rassa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rassa\\weatherDashF-B\\WeatherApi\\obj\\",
+        "outputPath": "C:\\Users\\rassa\\weatherDashF-B - Cursor\\WeatherApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rassa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.3, )"
@@ -55,6 +63,10 @@
               "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.3, )"
             },
